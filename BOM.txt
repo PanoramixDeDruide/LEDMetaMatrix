@@ -1,0 +1,17 @@
+Needed per module:
+- 1x PCB (see KiCad files)
+- Mounted on top:
+-  32x 12-pin female header https://www.tinytronics.nl/nl/kabels-en-connectoren/connectoren/pin-headers/female/12-pins-header-female
+-   16x CSM-88181EG LED dot matrix (mounted on above headers)
+-  32x 1kOhm resistor https://www.tinytronics.nl/nl/componenten/weerstanden/weerstanden/1k%CF%89-weerstand
+-  1x quad DIP switch https://www.tinytronics.nl/nl/schakelaars/manuele-schakelaars/dip-schakelaars/dip-switch-4-posities (variant with 3 switches preferable)
+- Mounted on bottom:
+-  2x 40-pin male header, long variant https://www.tinytronics.nl/nl/kabels-en-connectoren/connectoren/pin-headers/male/40-pins-header-male-lang (to be broken up into pieces)
+-   1x Arduino MEGA 2560 rev3 clone https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/arduino-compatible/mega-2560-r3-met-usb-kabel (as HAT, mounted on the male pin headers)
+-    `1x USB A -> USB B cable if using a singular module (comes with above product), or one with a 90 degree rotated USB B plug like https://www.kabelshop.nl/ACT-USB-A-naar-USB-B-kabel-1-8-meter-USB-2-0-100-koper-Haaks-SB2408-i20709-t284811.html for daisy chaining
+
+Plus, if you want to daisy chain multiple modules together, to be mounted on top:
+- 1x 3-pin female header https://www.tinytronics.nl/nl/kabels-en-connectoren/connectoren/pin-headers/female/3-pins-header-female
+- 1x 3-pin male header (90deg), for instance https://www.tinytronics.nl/nl/kabels-en-connectoren/connectoren/pin-headers/male/40-pins-header-male-90-graden *
+
+* Currently using https://www.tinytronics.nl/nl/kabels-en-connectoren/connectoren/pin-headers/male/40-pins-header-male-90-graden-type-b and it's too short.
